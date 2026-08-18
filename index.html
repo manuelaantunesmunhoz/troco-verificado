@@ -1,30 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Troco Veerificado</title>
-
-
+    <title>Troco Verificado</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Troco Verificado</h1>
 
-        <label>Preço unitário do produto:</label> 
-        <input type="number" id="preco" placeholder= "Ex: 5.00">
+    <label>Preço unitário do produto:</label>
+    <input type="number" id="preco">
+    <br><br>
 
-        <label>Quantidade comprada:</label>
-        <input type="number" id="quantidade" placeholder= "Ex: 1">
+    <label>Quantidade comprada:</label>
+    <input type="number" id="quantidade">
+    <br><br>
 
-        <label>Dinheiro recebido:</label>
-        <input type="number" id="dinheiro" placeholder= "Ex: 30.00">
+    <label>Dinheiro recebido:</label>
+    <input type="number" id="dinheiro">
+    <br><br>
 
-        <button onclick="calcularTroco()">Calcular Troco</button>
+    <button onclick="calcular()">Calcular</button>
 
-       <div id="resultado"></div>
-    </div>
+    <p id="resultado"></p>
 
     <script src="script.js"></script>
+
 </body>
 </html>
